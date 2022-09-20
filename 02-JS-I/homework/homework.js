@@ -32,18 +32,17 @@ function devolverString(str) {
 }
 
 function suma(x, y) { 
-  var  x ;
-  var  y ; 
+ 
   var  resultado ;
   // "x" e "y" son números 
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  if ( x ¡= 0 && y ¡= 0) {
-    x + y = resultado ;
-  } else {
-    resultado = 0;
-  } return;
+  resultado = x + y;
+  return resultado 
 }
+ 
+   suma(5;2);
+
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
@@ -54,8 +53,15 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+
+  var = resultado;
+  
+  resultado = x * Y ;
+  return resultado ;
   
 }
+
+ multiplica(3,3);
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
